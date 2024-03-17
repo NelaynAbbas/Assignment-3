@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #222;
+    color: #fff;
+}
+
+#clock {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 80px;
+    text-align: center;
+}
+
+#hours, #minutes, #seconds {
+    animation: blink 2s infinite;
+}
+
+@keyframes blink {
+    from, to {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
