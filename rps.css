@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-choice,
+.result {
+    flex: 1;
+    text-align: center;
+}
+
+.user-choice button {
+    margin: 10px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#rock {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#paper {
+    background-color: #FFEB3B;
+    color: black;
+}
+
+#scissors {
+    background-color: #f44336;
+    color: white;
+}
