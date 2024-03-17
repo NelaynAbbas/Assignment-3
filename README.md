@@ -1,2 +1,13 @@
 # Assignment-3
-Assignment 3 tasks 2-4
+
+![alt text](image.png)
+
+
+# Weather App
+
+![alt text](image-1.png)
+
+
+# Clock App
+
+![alt text](image-2.png)
